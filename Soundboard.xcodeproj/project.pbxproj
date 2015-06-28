@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1540D0A1B3EEE7A0049E2CE /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1540D091B3EEE7A0049E2CE /* Sound.swift */; };
 		B1910E311B2DC38F009C6AE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1910E301B2DC38F009C6AE4 /* AppDelegate.swift */; };
 		B1910E341B2DC38F009C6AE4 /* Soundboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1910E321B2DC38F009C6AE4 /* Soundboard.xcdatamodeld */; };
-		B1910E361B2DC38F009C6AE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1910E351B2DC38F009C6AE4 /* ViewController.swift */; };
+		B1910E361B2DC38F009C6AE4 /* SoundListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1910E351B2DC38F009C6AE4 /* SoundListViewController.swift */; };
 		B1910E391B2DC38F009C6AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1910E371B2DC38F009C6AE4 /* Main.storyboard */; };
 		B1910E3B1B2DC38F009C6AE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1910E3A1B2DC38F009C6AE4 /* Images.xcassets */; };
 		B1910E3E1B2DC38F009C6AE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1910E3C1B2DC38F009C6AE4 /* LaunchScreen.xib */; };
 		B1910E4A1B2DC38F009C6AE4 /* SoundboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1910E491B2DC38F009C6AE4 /* SoundboardTests.swift */; };
+		B1910E541B2DC977009C6AE4 /* vijaytest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B1910E531B2DC977009C6AE4 /* vijaytest.m4a */; };
+		B1910E581B2E237D009C6AE4 /* NewSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1910E571B2E237D009C6AE4 /* NewSoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1540D091B3EEE7A0049E2CE /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 		B1910E2B1B2DC38F009C6AE4 /* Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1910E2F1B2DC38F009C6AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1910E301B2DC38F009C6AE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1910E331B2DC38F009C6AE4 /* Soundboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Soundboard.xcdatamodel; sourceTree = "<group>"; };
-		B1910E351B2DC38F009C6AE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1910E351B2DC38F009C6AE4 /* SoundListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundListViewController.swift; sourceTree = "<group>"; };
 		B1910E381B2DC38F009C6AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1910E3A1B2DC38F009C6AE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B1910E3D1B2DC38F009C6AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B1910E431B2DC38F009C6AE4 /* SoundboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1910E481B2DC38F009C6AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1910E491B2DC38F009C6AE4 /* SoundboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardTests.swift; sourceTree = "<group>"; };
+		B1910E531B2DC977009C6AE4 /* vijaytest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = vijaytest.m4a; path = ../../../../Documents/vijaytest.m4a; sourceTree = "<group>"; };
+		B1910E571B2E237D009C6AE4 /* NewSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +85,11 @@
 		B1910E2D1B2DC38F009C6AE4 /* Soundboard */ = {
 			isa = PBXGroup;
 			children = (
+				B1540D091B3EEE7A0049E2CE /* Sound.swift */,
+				B1910E531B2DC977009C6AE4 /* vijaytest.m4a */,
 				B1910E301B2DC38F009C6AE4 /* AppDelegate.swift */,
-				B1910E351B2DC38F009C6AE4 /* ViewController.swift */,
+				B1910E351B2DC38F009C6AE4 /* SoundListViewController.swift */,
+				B1910E571B2E237D009C6AE4 /* NewSoundViewController.swift */,
 				B1910E371B2DC38F009C6AE4 /* Main.storyboard */,
 				B1910E3A1B2DC38F009C6AE4 /* Images.xcassets */,
 				B1910E3C1B2DC38F009C6AE4 /* LaunchScreen.xib */,
@@ -195,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1910E541B2DC977009C6AE4 /* vijaytest.m4a in Resources */,
 				B1910E391B2DC38F009C6AE4 /* Main.storyboard in Resources */,
 				B1910E3E1B2DC38F009C6AE4 /* LaunchScreen.xib in Resources */,
 				B1910E3B1B2DC38F009C6AE4 /* Images.xcassets in Resources */,
@@ -215,9 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1910E361B2DC38F009C6AE4 /* ViewController.swift in Sources */,
+				B1540D0A1B3EEE7A0049E2CE /* Sound.swift in Sources */,
+				B1910E361B2DC38F009C6AE4 /* SoundListViewController.swift in Sources */,
 				B1910E341B2DC38F009C6AE4 /* Soundboard.xcdatamodeld in Sources */,
 				B1910E311B2DC38F009C6AE4 /* AppDelegate.swift in Sources */,
+				B1910E581B2E237D009C6AE4 /* NewSoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +423,7 @@
 				B1910E4F1B2DC38F009C6AE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1910E501B2DC38F009C6AE4 /* Build configuration list for PBXNativeTarget "SoundboardTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +432,7 @@
 				B1910E521B2DC38F009C6AE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
