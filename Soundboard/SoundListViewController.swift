@@ -24,6 +24,7 @@ class SoundListViewController: UIViewController, UITableViewDelegate, UITableVie
         // Roll Tide...
         self.tableView.dataSource = self
         self.tableView.delegate = self
+          
               
     }
     

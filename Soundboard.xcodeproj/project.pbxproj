@@ -173,6 +173,7 @@
 				TargetAttributes = {
 					B1910E2A1B2DC38F009C6AE4 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = VT77458B75;
 					};
 					B1910E421B2DC38F009C6AE4 = {
 						CreatedOnToolsVersion = 6.2;
@@ -357,6 +358,8 @@
 				INFOPLIST_FILE = Soundboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bb70e3bb-6b3f-4579-8091-4e216b9c0be9";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -367,6 +370,8 @@
 				INFOPLIST_FILE = Soundboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bb70e3bb-6b3f-4579-8091-4e216b9c0be9";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
